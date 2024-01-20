@@ -2,6 +2,16 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <iostream>
+#include <iostream>
+#include <Windows.h>
+#include <random>
+
+#include "nlohmann/json.hpp"
+#include "Serealization.h"
+#include "Fight.h"
+#include "Filtration.h"
+#include "Simulation.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,7 +25,16 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_Information_clicked();
+
+    void on_Filtration_clicked();
+
+    void on_Simulation_clicked();
+
 private:
     Ui::MainWindow *ui;
+
+
 };
 #endif // MAINWINDOW_H

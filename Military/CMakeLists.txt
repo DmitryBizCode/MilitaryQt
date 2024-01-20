@@ -19,6 +19,31 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        nlohmann/json.hpp
+
+
+        filtrationwin.h
+        filtrationwin.cpp
+        filtrationwin.ui
+        informationwin.h
+        informationwin.cpp
+        informationwin.ui
+        simulationwin.h
+        simulationwin.cpp
+        simulationwin.ui
+
+        Simulation.cpp
+        Simulation.h
+        Fight.cpp
+        Fight.h
+
+        TextInformation.cpp
+        TextInformation.h
+
+        Serealization.cpp
+        Serealization.h
+        Filtration.cpp
+        Filtration.h
         ${TS_FILES}
 )
 
