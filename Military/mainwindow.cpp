@@ -32,7 +32,9 @@ void MainWindow::on_Filtration_clicked()
 
 void MainWindow::on_Simulation_clicked()
 {
-    std::cout<<"1"<<std::endl;
+    hide();
+    simulation.show();
+    /*std::cout<<"1"<<std::endl;
     Simulation S("Plain");
     Fight F;
 
@@ -41,7 +43,7 @@ void MainWindow::on_Simulation_clicked()
     F.Parse();
     F.printMaps();
     S.Sim();
-    F.printMaps();
+    F.printMaps();*/
 }
 /*
 void MainWindow::on_Msell_clicked()

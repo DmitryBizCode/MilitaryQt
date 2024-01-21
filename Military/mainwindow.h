@@ -7,11 +7,10 @@
 #include <Windows.h>
 #include <random>
 
-#include "nlohmann/json.hpp"
-#include "Serealization.h"
-#include "Fight.h"
-#include "Filtration.h"
-#include "Simulation.h"
+
+
+#include "simulationwin.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -34,7 +33,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
+    SimulationWin simulation;
 
 };
 #endif // MAINWINDOW_H

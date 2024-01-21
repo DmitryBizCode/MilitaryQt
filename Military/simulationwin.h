@@ -2,6 +2,15 @@
 #define SIMULATIONWIN_H
 
 #include <QMainWindow>
+#include <QString>
+#include <QComboBox>
+#include <string>
+#include "nlohmann/json.hpp"
+#include "Serealization.h"
+#include "Fight.h"
+#include "Filtration.h"
+#include "Simulation.h"
+
 
 namespace Ui {
 class SimulationWin;
@@ -14,6 +23,9 @@ class SimulationWin : public QMainWindow
 public:
     explicit SimulationWin(QWidget *parent = nullptr);
     ~SimulationWin();
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::SimulationWin *ui;
