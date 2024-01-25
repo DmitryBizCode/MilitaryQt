@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "dialogwiner.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -24,9 +25,9 @@ void MainWindow::on_Information_clicked()
 
 void MainWindow::on_Filtration_clicked()
 {
-    std::cout<<"1"<<std::endl;
-
-
+    DialogWiner D(nullptr,5,5,5,5,5,5,5,5);
+    D.setModal(true);
+    D.exec();
 }
 
 

@@ -44,7 +44,9 @@ set(PROJECT_SOURCES
         Serealization.h
         Filtration.cpp
         Filtration.h
-
+        dialogwiner.h
+        dialogwiner.ui
+        dialogwiner.cpp
         ${TS_FILES}
 )
 
