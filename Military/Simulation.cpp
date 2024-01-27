@@ -100,7 +100,7 @@ tuple<bool, int> Simulation::Sim() {
 		}
 		if ((Time % 15 == 0) && (MyBaseTeam_Check() || OpponentBaseTeam_Check())) 
 			Neutral_Allocate();		
-		if (Time % 5 == 0) {
+        if (Time % 1 == 0) {
 			cout << endl;
 			printMaps();
 		}

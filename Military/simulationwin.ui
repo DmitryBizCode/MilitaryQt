@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>Моя команда</string>
+     <string>Команда А</string>
     </property>
     <widget class="QWidget" name="gridLayoutWidget">
      <property name="geometry">
@@ -36,25 +36,15 @@
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="1" column="2">
-       <widget class="QLineEdit" name="TanksMy"/>
-      </item>
-      <item row="0" column="2">
-       <widget class="QLineEdit" name="ShooterMy"/>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string>Піхота</string>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="0">
        <widget class="QLabel" name="label_2">
         <property name="text">
          <string>Танки</string>
         </property>
        </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLineEdit" name="VechileMy"/>
       </item>
       <item row="3" column="0">
        <widget class="QLabel" name="label_4">
@@ -66,13 +56,23 @@
       <item row="2" column="2">
        <widget class="QLineEdit" name="DronesMy"/>
       </item>
-      <item row="3" column="2">
-       <widget class="QLineEdit" name="VechileMy"/>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="TanksMy"/>
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_3">
         <property name="text">
          <string>Дрони</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLineEdit" name="ShooterMy"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Піхота</string>
         </property>
        </widget>
       </item>
@@ -89,7 +89,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>Команда противника</string>
+     <string>Команда Б</string>
     </property>
     <widget class="QWidget" name="gridLayoutWidget_2">
      <property name="geometry">
@@ -154,7 +154,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Симуляція</string>
+     <string>Імітація</string>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox">
@@ -168,12 +168,12 @@
     </property>
     <item>
      <property name="text">
-      <string>Plain</string>
+      <string>Рівнина</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Swamp</string>
+      <string>Болото</string>
      </property>
     </item>
    </widget>

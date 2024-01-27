@@ -29,6 +29,10 @@ void SimulationWin::on_pushButton_clicked()
     int vec_Op = ui->VechileOp->text().toInt();
     QString qWeather = ui->comboBox->currentText();
     std::string weather = qWeather.toStdString();
+    if(weather == "Рівнина")
+        weather = "Plain";
+    else
+        weather = "Swamp";
     Simulation S(weather);
     Fight F;
     F.AddOP(tan_Op, shoo_Op, dro_Op, vec_Op);
@@ -38,7 +42,7 @@ void SimulationWin::on_pushButton_clicked()
     tuple<bool, int> simulationresault = S.Sim();
     F.printMaps();
 
-    DialogWiner D(nullptr,tan_My,shoo_My,vec_My,dro_My,tan_Op,shoo_Op,vec_Op,dro_Op,get<0>(simulationresault),get<1>(simulationresault));
+    DialogWiner D(nullptr,tan_My,shoo_My,vec_My,dro_My,tan_Op,shoo_Op,vec_Op,dro_Op,get<0>(simulationresault),get<1>(simulationresault),weather);
     D.setModal(true);
     D.exec();
 }
