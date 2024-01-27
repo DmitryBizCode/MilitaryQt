@@ -15,6 +15,7 @@ public:
 	Simulation(string str): Weather_conditions(str){}
 	tuple<bool, int> Sim();
 	int Time = 0;
+    tuple<int, int, int, int, int, int, int, int> GetData();
 private:
 	void Random_Choose_and_Fight(float Tanks, float Shooters, float Drones, float Vehicle, string Name_Fight, string Team);
 	string Weather_conditions;

@@ -1,8 +1,8 @@
 #include "dialogwiner.h"
 #include "ui_dialogwiner.h"
 
-DialogWiner::DialogWiner(QWidget *parent, int Ta, int Sa, int Va, int Da, int Tb, int Sb, int Vb, int Db)
-    : QDialog(parent), ui(new Ui::DialogWiner),Ta(Ta),Sa(Sa),Va(Va),Da(Da),Tb(Tb),Sb(Sb),Vb(Vb),Db(Db)
+DialogWiner::DialogWiner(QWidget *parent, int Ta, int Sa, int Va, int Da, int Tb, int Sb, int Vb, int Db, bool winer, int time)
+    : QDialog(parent), ui(new Ui::DialogWiner),Ta(Ta),Sa(Sa),Va(Va),Da(Da),Tb(Tb),Sb(Sb),Vb(Vb),Db(Db),resault(winer),time(time)
 {
     // Constructor implementation here
     ui->setupUi(this);
@@ -16,8 +16,15 @@ DialogWiner::~DialogWiner()
 
 void DialogWiner::setupdatenew()
 {
-    ui->label->setText("Winner");
-    ui->label_2->setText("Lose");
+    if(resault){
+        ui->label->setText("Winner");
+        ui->label_2->setText("Lose");
+    }
+    else{
+        ui->label->setText("Lose");
+        ui->label_2->setText("Winner");
+    }
+    //Get_Shooter_My();
     ui->Ta->setText(QString::number(Ta) + "         (-");
     ui->Tb->setText(QString::number(Tb) + "         (-");
     ui->Sa->setText(QString::number(Sa) + "         (-");

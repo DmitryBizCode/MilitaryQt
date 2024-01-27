@@ -95,6 +95,7 @@ void F::printMaps() {
 }
 
 
+
 //Update
 void F::Parse() {
     if (myMap["Shooter"] >= (myBase["Tanks"] * 4 + myBase["Drones"] + myBase["Armored vehicles"] * 3))

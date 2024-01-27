@@ -35,7 +35,11 @@ void SimulationWin::on_pushButton_clicked()
     F.AddMY(tan_My, shoo_My, dro_My, vec_My);
     F.Parse();
     F.printMaps();
-    S.Sim();
+    tuple<bool, int> simulationresault = S.Sim();
     F.printMaps();
+
+    DialogWiner D(nullptr,tan_My,shoo_My,vec_My,dro_My,tan_Op,shoo_Op,vec_Op,dro_Op,get<0>(simulationresault),get<1>(simulationresault));
+    D.setModal(true);
+    D.exec();
 }
 

@@ -103,7 +103,6 @@ tuple<bool, int> Simulation::Sim() {
 		if (Time % 5 == 0) {
 			cout << endl;
 			printMaps();
-			//std::this_thread::sleep_for(std::chrono::seconds(5));
 		}
 	}
 	return make_tuple(MyTeam_Check(), Time);
@@ -208,4 +207,7 @@ void Simulation::Random_Choose_and_Fight(float Tanks,float Shooters, float Drone
 			}
 		}
 	}
+}
+tuple<int, int, int, int, int, int, int, int> Simulation::GetData(){
+    return make_tuple(Get_Shooter_My(),Get_Shooter_Op(),Get_Tanks_My(),Get_Tanks_Op(),Get_Drones_My(),Get_Drones_Op(),Get_Vehicles_My(),Get_Vehicles_Op());
 }

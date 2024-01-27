@@ -10,6 +10,7 @@
 #include "Fight.h"
 #include "Filtration.h"
 #include "Simulation.h"
+#include "dialogwiner.h"
 
 
 namespace Ui {

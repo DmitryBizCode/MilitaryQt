@@ -25,7 +25,7 @@ string TextInformation::DataWithText(int num) {
 
 	}
 	else if (num == 7)
-	{
+    {
 
 	}
 
