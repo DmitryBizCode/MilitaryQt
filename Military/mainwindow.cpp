@@ -24,7 +24,8 @@ void MainWindow::on_Information_clicked()
 
 void MainWindow::on_Filtration_clicked()
 {
-
+    hide();
+    filtration.show();
 }
 
 

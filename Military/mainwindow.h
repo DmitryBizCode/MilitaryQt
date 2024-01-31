@@ -10,6 +10,7 @@
 
 
 #include "simulationwin.h"
+#include "filtrationwin.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -34,6 +35,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
     SimulationWin simulation;
-
+    FiltrationWin filtration;
 };
 #endif // MAINWINDOW_H

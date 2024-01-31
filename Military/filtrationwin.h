@@ -15,8 +15,12 @@ public:
     explicit FiltrationWin(QWidget *parent = nullptr);
     ~FiltrationWin();
 
+private slots:
+    void on_FiltrationOn__clicked();
+
 private:
     Ui::FiltrationWin *ui;
+    void FiltrationWin12(int dis, int calib);
 };
 
 #endif // FILTRATIONWIN_H
