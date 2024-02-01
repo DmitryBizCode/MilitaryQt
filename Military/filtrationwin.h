@@ -2,6 +2,7 @@
 #define FILTRATIONWIN_H
 
 #include <QMainWindow>
+#include <vector>
 
 namespace Ui {
 class FiltrationWin;
