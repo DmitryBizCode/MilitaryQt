@@ -15,6 +15,9 @@ public:
     explicit InformationWin(QWidget *parent = nullptr);
     ~InformationWin();
 
+private slots:
+    void on_Return_to_home_clicked();
+
 private:
     Ui::InformationWin *ui;
 };

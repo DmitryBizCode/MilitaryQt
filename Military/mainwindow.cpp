@@ -17,8 +17,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Information_clicked()
 {
-    std::cout<<"1"<<std::endl;
-
+    hide();
+    information.show();
 }
 
 

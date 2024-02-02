@@ -6,51 +6,35 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>839</width>
-    <height>473</height>
+    <width>1135</width>
+    <height>637</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>70</y>
-     <width>151</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>520</x>
-     <y>80</y>
-     <width>131</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>250</y>
-     <width>261</width>
-     <height>161</height>
+     <x>190</x>
+     <y>320</y>
+     <width>331</width>
+     <height>271</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QLabel" name="Ta">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -58,6 +42,11 @@
     </item>
     <item>
      <widget class="QLabel" name="Sa">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -65,6 +54,11 @@
     </item>
     <item>
      <widget class="QLabel" name="Va">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -72,6 +66,11 @@
     </item>
     <item>
      <widget class="QLabel" name="Da">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -82,15 +81,25 @@
   <widget class="QWidget" name="verticalLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>250</y>
-     <width>281</width>
-     <height>161</height>
+     <x>580</x>
+     <y>320</y>
+     <width>351</width>
+     <height>271</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <widget class="QLabel" name="Tb">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -98,6 +107,11 @@
     </item>
     <item>
      <widget class="QLabel" name="Sb">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -105,6 +119,11 @@
     </item>
     <item>
      <widget class="QLabel" name="Vb">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -112,6 +131,11 @@
     </item>
     <item>
      <widget class="QLabel" name="Db">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -119,31 +143,77 @@
     </item>
    </layout>
   </widget>
-  <widget class="QLabel" name="weatherLabel">
+  <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>160</y>
-     <width>391</width>
-     <height>16</height>
+     <x>290</x>
+     <y>40</y>
+     <width>721</width>
+     <height>80</height>
     </rect>
    </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
-  <widget class="QLabel" name="TimerQt">
+  <widget class="QWidget" name="verticalLayoutWidget_3">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>200</y>
-     <width>281</width>
-     <height>16</height>
+     <x>440</x>
+     <y>150</y>
+     <width>411</width>
+     <height>111</height>
     </rect>
    </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="weatherLabel">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="TimerQt">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

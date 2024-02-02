@@ -6,15 +6,9 @@ FiltrationWin::FiltrationWin(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::FiltrationWin)
 {
-
     ui->setupUi(this);
-    ui->tableWidget->clear();
-    ui->tableWidget->setColumnCount(1);  // Одна колонка
-    ui->tableWidget->setRowCount(1);
-    QTableWidgetItem *item = new QTableWidgetItem;
-
-    item->setText("фівasd");
-    ui->tableWidget->setItem(0, 0, item);
+    FiltrationWin12(0, 0);
+    ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("Не відфільтровані"));
 }
 
 FiltrationWin::~FiltrationWin()
@@ -35,14 +29,26 @@ void FiltrationWin::FiltrationWin12(int dis, int calib)
     ui->tableWidget->setRowCount(arr_filtr.size());
 
     int row = 0;
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(0, QHeaderView::Stretch); // Займає всю доступну ширину
+    ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("Відфільтровані"));
+    if(arr_filtr.empty()){
+        ui->tableWidget->setRowCount(2);
+        QTableWidgetItem *item = new QTableWidgetItem;
+        item->setText("Введені критерії не підходять до жодного з наявного озброєння");
+        ui->tableWidget->setItem(0, 0, item);
+        QTableWidgetItem *item2 = new QTableWidgetItem;
+        item2->setText("Помилка в значеннях, спробуйте інші дані");
+        ui->tableWidget->setItem(1, 0, item2);
+        ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("Помилка"));
+    }
     for (const string& element : arr_filtr) {
         // Додаємо новий елемент у таблицю
-        QString res = QString::fromLocal8Bit(element.data(), element.size());        QTableWidgetItem *item = new QTableWidgetItem;
+        QString res = QString::fromLocal8Bit(element.data(), element.size());
+        QTableWidgetItem *item = new QTableWidgetItem;
         item->setText(res);
         ui->tableWidget->setItem(row, 0, item);
         row++;
     }
-
 }
 
 void FiltrationWin::on_FiltrationOn__clicked()
@@ -51,5 +57,11 @@ void FiltrationWin::on_FiltrationOn__clicked()
     int CalibEd = ui->caliberEd->text().toInt();
 
     FiltrationWin12(DisEd,CalibEd);
+}
+
+
+void FiltrationWin::on_Return_to_home_clicked()
+{
+
 }
 

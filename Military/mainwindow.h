@@ -2,13 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <iostream>
-#include <iostream>
-#include <Windows.h>
-#include <random>
 
-
-
+#include "informationwin.h"
 #include "simulationwin.h"
 #include "filtrationwin.h"
 
@@ -36,5 +31,6 @@ private:
     Ui::MainWindow *ui;
     SimulationWin simulation;
     FiltrationWin filtration;
+    InformationWin information;
 };
 #endif // MAINWINDOW_H

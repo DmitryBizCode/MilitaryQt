@@ -2,8 +2,6 @@
 #define FILTRATIONWIN_H
 
 #include <QMainWindow>
-#include <vector>
-
 namespace Ui {
 class FiltrationWin;
 }
@@ -19,9 +17,12 @@ public:
 private slots:
     void on_FiltrationOn__clicked();
 
+    void on_Return_to_home_clicked();
+
 private:
     Ui::FiltrationWin *ui;
     void FiltrationWin12(int dis, int calib);
+
 };
 
 #endif // FILTRATIONWIN_H

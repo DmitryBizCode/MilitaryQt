@@ -28,6 +28,8 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_Return_to_home_clicked();
+
 private:
     Ui::SimulationWin *ui;
 };

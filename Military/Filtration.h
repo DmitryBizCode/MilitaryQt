@@ -1,6 +1,5 @@
 #pragma once
 #include "Serealization.h"
-using namespace std;
 class Filtration
 {
 public:

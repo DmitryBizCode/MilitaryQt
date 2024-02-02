@@ -36,7 +36,6 @@ vector<string> Fi::PrintObjectsWithGreaterThan(int distance, int caliber) {
     catch (const exception& e) {
         cerr << "Error: " << e.what() << endl;
     }
-
 }
 string Fi::ConvertToUkr(string englishWord) {
     if (englishWord == "Mines")
