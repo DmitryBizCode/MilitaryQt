@@ -1,29 +1,26 @@
-#ifndef SIMULATIONWIN_H
-#define SIMULATIONWIN_H
+#ifndef SIMULATIONWINDOW_H
+#define SIMULATIONWINDOW_H
 
-#include <QMainWindow>
+#include <QWidget>
 #include <QString>
 #include <QComboBox>
-#include <string>
 #include "nlohmann/json.hpp"
 #include "Serealization.h"
 #include "Fight.h"
 #include "Filtration.h"
 #include "Simulation.h"
 #include "dialogwiner.h"
-
-
 namespace Ui {
-class SimulationWin;
+class Simulationwindow;
 }
 
-class SimulationWin : public QMainWindow
+class Simulationwindow : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit SimulationWin(QWidget *parent = nullptr);
-    ~SimulationWin();
+    explicit Simulationwindow(QWidget *parent = nullptr);
+    ~Simulationwindow();
 
 private slots:
     void on_pushButton_clicked();
@@ -31,7 +28,7 @@ private slots:
     void on_Return_to_home_clicked();
 
 private:
-    Ui::SimulationWin *ui;
+    Ui::Simulationwindow *ui;
 };
 
-#endif // SIMULATIONWIN_H
+#endif // SIMULATIONWINDOW_H

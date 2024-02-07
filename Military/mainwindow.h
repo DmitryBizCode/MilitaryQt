@@ -3,9 +3,11 @@
 
 #include <QMainWindow>
 
-#include "informationwin.h"
-#include "simulationwin.h"
+//#include "informationwin.h"
+//#include "simulationwin.h"
 #include "filtrationwin.h"
+#include "forminf.h"
+#include "simulationwindow.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -29,8 +31,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    SimulationWin simulation;
+    Simulationwindow simulation;
     FiltrationWin filtration;
-    InformationWin information;
+    Forminf information;
 };
 #endif // MAINWINDOW_H

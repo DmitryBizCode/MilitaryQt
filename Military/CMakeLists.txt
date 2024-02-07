@@ -21,16 +21,13 @@ set(PROJECT_SOURCES
         mainwindow.ui
         nlohmann/json.hpp
 
+        forminf.h
+        forminf.cpp
+        forminf.ui
 
         filtrationwin.h
         filtrationwin.cpp
         filtrationwin.ui
-        informationwin.h
-        informationwin.cpp
-        informationwin.ui
-        simulationwin.h
-        simulationwin.cpp
-        simulationwin.ui
 
         Simulation.cpp
         Simulation.h
@@ -47,6 +44,14 @@ set(PROJECT_SOURCES
         dialogwiner.h
         dialogwiner.ui
         dialogwiner.cpp
+
+        artelir.h
+        artelir.cpp
+        artelir.ui
+        simulationwindow.h
+        simulationwindow.cpp
+        simulationwindow.ui
+
         ${TS_FILES}
 )
 
@@ -54,6 +59,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Military
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+
+
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Military APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

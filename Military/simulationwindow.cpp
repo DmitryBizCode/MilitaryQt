@@ -1,20 +1,19 @@
-#include "simulationwin.h"
-#include "ui_simulationwin.h"
+#include "simulationwindow.h"
+#include "ui_simulationwindow.h"
+#include "mainwindow.h"
 
-
-SimulationWin::SimulationWin(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::SimulationWin)
+Simulationwindow::Simulationwindow(QWidget *parent)
+    : QWidget(parent)
+    , ui(new Ui::Simulationwindow)
 {
     ui->setupUi(this);
 }
 
-SimulationWin::~SimulationWin()
+Simulationwindow::~Simulationwindow()
 {
     delete ui;
 }
-
-void SimulationWin::on_pushButton_clicked()
+void Simulationwindow::on_pushButton_clicked()
 {
     int shoo_My = ui->ShooterMy->text().toInt();
     int shoo_Op = ui->ShooterOp->text().toInt();
@@ -48,9 +47,8 @@ void SimulationWin::on_pushButton_clicked()
 }
 
 
-void SimulationWin::on_Return_to_home_clicked()
+void Simulationwindow::on_Return_to_home_clicked()
 {
-    /*
     // Check if a MainWindow instance already exists
     QList<QWidget*> topLevelWidgets = QApplication::topLevelWidgets();
     for (QWidget* widget : topLevelWidgets)
@@ -68,6 +66,5 @@ void SimulationWin::on_Return_to_home_clicked()
     MainWindow* mainWindow = new MainWindow();
     mainWindow->show();
     mainWindow->setAttribute(Qt::WA_DeleteOnClose);
-    this->close();*/
+    this->close();
 }
-
