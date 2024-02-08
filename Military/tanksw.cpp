@@ -1,19 +1,20 @@
-#include "artelir.h"
-#include "ui_artelir.h"
+#include "tanksw.h"
+#include "ui_tanksw.h"
 #include "forminf.h"
-Artelir::Artelir(QWidget *parent)
+
+Tanksw::Tanksw(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Artelir)
+    , ui(new Ui::Tanksw)
 {
     ui->setupUi(this);
 }
 
-Artelir::~Artelir()
+Tanksw::~Tanksw()
 {
     delete ui;
 }
 
-void Artelir::on_pushButton_7_clicked()
+void Tanksw::on_HomeB_clicked()
 {
     // Check if a MainWindow instance already exists
     QList<QWidget*> topLevelWidgets = QApplication::topLevelWidgets();
@@ -36,37 +37,67 @@ void Artelir::on_pushButton_7_clicked()
 }
 
 
-void Artelir::on_C3_clicked()
+void Tanksw::on_Abrams_clicked()
 {
 
 }
 
 
-void Artelir::on_C19_clicked()
+void Tanksw::on_Chelenger_clicked()
 {
 
 }
 
 
-void Artelir::on_ttt_clicked()
+void Tanksw::on_Leopard1_clicked()
 {
 
 }
 
 
-void Artelir::on_bogdana_clicked()
+void Tanksw::on_Leopard2_clicked()
 {
 
 }
 
 
-void Artelir::on_m109_clicked()
+void Tanksw::on_t54_clicked()
 {
 
 }
 
 
-void Artelir::on_pzh2000_clicked()
+void Tanksw::on_t55_clicked()
+{
+
+}
+
+
+void Tanksw::on_t62_clicked()
+{
+
+}
+
+
+void Tanksw::on_t64_clicked()
+{
+
+}
+
+
+void Tanksw::on_t72_clicked()
+{
+
+}
+
+
+void Tanksw::on_t80_clicked()
+{
+
+}
+
+
+void Tanksw::on_t90_clicked()
 {
 
 }

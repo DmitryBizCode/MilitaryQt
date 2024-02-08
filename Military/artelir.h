@@ -18,6 +18,18 @@ public:
 private slots:
     void on_pushButton_7_clicked();
 
+    void on_C3_clicked();
+
+    void on_C19_clicked();
+
+    void on_ttt_clicked();
+
+    void on_bogdana_clicked();
+
+    void on_m109_clicked();
+
+    void on_pzh2000_clicked();
+
 private:
     Ui::Artelir *ui;
 };

@@ -1,19 +1,20 @@
-#include "artelir.h"
-#include "ui_artelir.h"
+#include "shoot.h"
+#include "ui_shoot.h"
 #include "forminf.h"
-Artelir::Artelir(QWidget *parent)
+
+Shoot::Shoot(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Artelir)
+    , ui(new Ui::Shoot)
 {
     ui->setupUi(this);
 }
 
-Artelir::~Artelir()
+Shoot::~Shoot()
 {
     delete ui;
 }
 
-void Artelir::on_pushButton_7_clicked()
+void Shoot::on_HomeB_clicked()
 {
     // Check if a MainWindow instance already exists
     QList<QWidget*> topLevelWidgets = QApplication::topLevelWidgets();
@@ -36,37 +37,12 @@ void Artelir::on_pushButton_7_clicked()
 }
 
 
-void Artelir::on_C3_clicked()
+void Shoot::on_ak_clicked()
 {
 
 }
 
-
-void Artelir::on_C19_clicked()
-{
-
-}
-
-
-void Artelir::on_ttt_clicked()
-{
-
-}
-
-
-void Artelir::on_bogdana_clicked()
-{
-
-}
-
-
-void Artelir::on_m109_clicked()
-{
-
-}
-
-
-void Artelir::on_pzh2000_clicked()
+void Shoot::on_ar_clicked()
 {
 
 }

@@ -1,19 +1,20 @@
-#include "artelir.h"
-#include "ui_artelir.h"
+#include "aviation.h"
+#include "ui_aviation.h"
 #include "forminf.h"
-Artelir::Artelir(QWidget *parent)
+
+Aviation::Aviation(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Artelir)
+    , ui(new Ui::Aviation)
 {
     ui->setupUi(this);
 }
 
-Artelir::~Artelir()
+Aviation::~Aviation()
 {
     delete ui;
 }
 
-void Artelir::on_pushButton_7_clicked()
+void Aviation::on_pushButton_clicked()
 {
     // Check if a MainWindow instance already exists
     QList<QWidget*> topLevelWidgets = QApplication::topLevelWidgets();
@@ -33,41 +34,5 @@ void Artelir::on_pushButton_7_clicked()
     mainWindow->show();
     mainWindow->setAttribute(Qt::WA_DeleteOnClose);
     this->close();
-}
-
-
-void Artelir::on_C3_clicked()
-{
-
-}
-
-
-void Artelir::on_C19_clicked()
-{
-
-}
-
-
-void Artelir::on_ttt_clicked()
-{
-
-}
-
-
-void Artelir::on_bogdana_clicked()
-{
-
-}
-
-
-void Artelir::on_m109_clicked()
-{
-
-}
-
-
-void Artelir::on_pzh2000_clicked()
-{
-
 }
 

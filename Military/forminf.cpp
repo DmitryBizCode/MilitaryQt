@@ -48,30 +48,35 @@ void Forminf::on_HomeB_clicked()
 
 void Forminf::on_Mlrs_clicked()
 {
-
+    hide();
+    mlwin.show();
 }
 
 
 void Forminf::on_Vech_clicked()
 {
-
+    hide();
+    vecwin.show();
 }
 
 
 void Forminf::on_Tanks_clicked()
 {
-
+    hide();
+    tanwin.show();
 }
 
 
 void Forminf::on_Shoot_clicked()
 {
-
+    hide();
+    shwin.show();
 }
 
 
 void Forminf::on_Avia_clicked()
 {
-
+    hide();
+    avia.show();
 }
 

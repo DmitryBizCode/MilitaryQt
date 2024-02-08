@@ -1,19 +1,20 @@
-#include "artelir.h"
-#include "ui_artelir.h"
+#include "mlrs.h"
+#include "ui_mlrs.h"
 #include "forminf.h"
-Artelir::Artelir(QWidget *parent)
+
+MLRS::MLRS(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Artelir)
+    , ui(new Ui::MLRS)
 {
     ui->setupUi(this);
 }
 
-Artelir::~Artelir()
+MLRS::~MLRS()
 {
     delete ui;
 }
 
-void Artelir::on_pushButton_7_clicked()
+void MLRS::on_HomeB_clicked()
 {
     // Check if a MainWindow instance already exists
     QList<QWidget*> topLevelWidgets = QApplication::topLevelWidgets();
@@ -36,37 +37,25 @@ void Artelir::on_pushButton_7_clicked()
 }
 
 
-void Artelir::on_C3_clicked()
+void MLRS::on_Uragan_clicked()
 {
 
 }
 
 
-void Artelir::on_C19_clicked()
+void MLRS::on_smerch_clicked()
 {
 
 }
 
 
-void Artelir::on_ttt_clicked()
+void MLRS::on_bm21Grad_clicked()
 {
 
 }
 
 
-void Artelir::on_bogdana_clicked()
-{
-
-}
-
-
-void Artelir::on_m109_clicked()
-{
-
-}
-
-
-void Artelir::on_pzh2000_clicked()
+void MLRS::on_Himars_clicked()
 {
 
 }

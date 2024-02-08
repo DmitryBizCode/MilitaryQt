@@ -1,19 +1,20 @@
-#include "artelir.h"
-#include "ui_artelir.h"
+#include "vechwin.h"
+#include "ui_vechwin.h"
 #include "forminf.h"
-Artelir::Artelir(QWidget *parent)
+
+Vechwin::Vechwin(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Artelir)
+    , ui(new Ui::Vechwin)
 {
     ui->setupUi(this);
 }
 
-Artelir::~Artelir()
+Vechwin::~Vechwin()
 {
     delete ui;
 }
 
-void Artelir::on_pushButton_7_clicked()
+void Vechwin::on_HomeB_clicked()
 {
     // Check if a MainWindow instance already exists
     QList<QWidget*> topLevelWidgets = QApplication::topLevelWidgets();
@@ -36,37 +37,55 @@ void Artelir::on_pushButton_7_clicked()
 }
 
 
-void Artelir::on_C3_clicked()
+void Vechwin::on_bmp1_clicked()
 {
 
 }
 
 
-void Artelir::on_C19_clicked()
+void Vechwin::on_bmp2_clicked()
 {
 
 }
 
 
-void Artelir::on_ttt_clicked()
+void Vechwin::on_Bradley_clicked()
 {
 
 }
 
 
-void Artelir::on_bogdana_clicked()
+void Vechwin::on_BTR80_clicked()
 {
 
 }
 
 
-void Artelir::on_m109_clicked()
+void Vechwin::on_Cv90_clicked()
 {
 
 }
 
 
-void Artelir::on_pzh2000_clicked()
+void Vechwin::on_kozak_clicked()
+{
+
+}
+
+
+void Vechwin::on_m113_clicked()
+{
+
+}
+
+
+void Vechwin::on_Marder_clicked()
+{
+
+}
+
+
+void Vechwin::on_Tigr_clicked()
 {
 
 }

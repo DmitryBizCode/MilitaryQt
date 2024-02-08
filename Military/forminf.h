@@ -3,6 +3,11 @@
 
 #include <QWidget>
 #include "artelir.h"
+#include "vechwin.h"
+#include "tanksw.h"
+#include "shoot.h"
+#include "mlrs.h"
+#include "aviation.h"
 
 namespace Ui {
 class Forminf;
@@ -34,6 +39,11 @@ private slots:
 private:
     Ui::Forminf *ui;
     Artelir windArt;
+    Vechwin vecwin;
+    Tanksw tanwin;
+    Shoot shwin;
+    MLRS mlwin;
+    Aviation avia;
 };
 
 #endif // FORMINF_H
