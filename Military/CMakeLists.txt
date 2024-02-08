@@ -65,8 +65,10 @@ set(PROJECT_SOURCES
         shoot.h
         shoot.cpp
         shoot.ui
-
-
+        resurses.qrc
+        forma.h
+        forma.cpp
+        forma.ui
         ${TS_FILES}
 )
 
@@ -74,6 +76,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Military
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Military APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

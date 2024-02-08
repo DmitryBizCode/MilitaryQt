@@ -39,6 +39,9 @@ void Vechwin::on_HomeB_clicked()
 
 void Vechwin::on_bmp1_clicked()
 {
+    Forma *foo = new Forma(0, 0);
+    hide();
+    foo->show();
 
 }
 

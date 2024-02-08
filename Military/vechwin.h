@@ -2,6 +2,7 @@
 #define VECHWIN_H
 
 #include <QWidget>
+#include "forma.h"
 
 namespace Ui {
 class Vechwin;

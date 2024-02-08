@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/resimg">
+        <file>IMage/imgvech/BMP1.png</file>
+        <file>IMage/imgvech/BMP2.png</file>
+        <file>IMage/imgvech/Bredley.jpg</file>
+        <file>IMage/imgvech/BTR80.png</file>
+        <file>IMage/imgvech/cv90.png</file>
+        <file>IMage/imgvech/kozak.jpg</file>
+        <file>IMage/imgvech/m113.png</file>
+        <file>IMage/imgvech/Marder.jpg</file>
+        <file>IMage/imgvech/tiger.jpg</file>
+        <file>IMage/imgarta/2s3m.jpg</file>
+        <file>IMage/imgarta/m109.jpg</file>
+        <file>IMage/imgarta/m777.jpg</file>
+        <file>IMage/imgarta/PzH2000.jpg</file>
+        <file>IMage/imgavia/f16.jpg</file>
+        <file>IMage/imgavia/Mig29.jpg</file>
+        <file>IMage/imgavia/su25.jpg</file>
+        <file>IMage/imgavia/su27.jpg</file>
+        <file>IMage/imgavia/su30.jpg</file>
+        <file>IMage/imgmlrs/bm21Grad.jpg</file>
+        <file>IMage/imgmlrs/BM27Uragan.jpg</file>
+        <file>IMage/imgmlrs/bm30Smerch.jpg</file>
+        <file>IMage/imgmlrs/Himars.jpg</file>
+        <file>IMage/imgshoot/ak.jpg</file>
+        <file>IMage/imgshoot/ar.jpg</file>
+        <file>IMage/imgtank/Bebrams.png</file>
+        <file>IMage/imgtank/chelenger.png</file>
+        <file>IMage/imgtank/Leopard2.png</file>
+        <file>IMage/imgtank/Leopard1.png</file>
+        <file>IMage/imgtank/t54.png</file>
+        <file>IMage/imgtank/t55.png</file>
+        <file>IMage/imgtank/t62.png</file>
+        <file>IMage/imgtank/t64.png</file>
+        <file>IMage/imgtank/t72.png</file>
+        <file>IMage/imgtank/t80.png</file>
+        <file>IMage/imgtank/t90.png</file>
+        <file>IMage/imgarta/2c19.jpg</file>
+        <file>IMage/imgarta/2c22.jpg</file>
+    </qresource>
+</RCC>

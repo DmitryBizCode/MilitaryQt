@@ -1,6 +1,7 @@
 #include "artelir.h"
 #include "ui_artelir.h"
 #include "forminf.h"
+
 Artelir::Artelir(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Artelir)
