@@ -16,14 +16,18 @@
   <widget class="QPushButton" name="HomeB">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>90</y>
-     <width>80</width>
-     <height>24</height>
+     <x>60</x>
+     <y>60</y>
+     <width>51</width>
+     <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/resToPage/helmet_6186688.png);
+background-color: rgb(192, 206, 217);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="ak">

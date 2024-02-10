@@ -132,7 +132,9 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">image: url(:/resimg/IMage/resToPage/icons8-military-helmet-48.png);</string>
+    <string notr="true">image: url(:/resimg/IMage/resToPage/helmet_6186688.png);
+background-color: rgb(192, 206, 217);
+</string>
    </property>
    <property name="text">
     <string/>

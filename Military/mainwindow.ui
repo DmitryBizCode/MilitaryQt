@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="Filtration">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>80</x>
       <y>240</y>
       <width>250</width>
       <height>300</height>
@@ -28,14 +28,19 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/photo_2024-02-10_23-40-21.jpg);</string>
+    </property>
     <property name="text">
-     <string>Фільтрація</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="Information">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>500</x>
       <y>240</y>
       <width>250</width>
       <height>300</height>
@@ -46,8 +51,13 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border: none;
+image: url(:/resimg/IMage/resToPage/photo_2024-02-10_23-40-18.jpg);
+    outline: none;</string>
+    </property>
     <property name="text">
-     <string>Інформація</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="Simulation">
@@ -64,10 +74,97 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/photo_2024-02-10_23-40-11.jpg);</string>
+    </property>
     <property name="text">
-     <string>Симуляція</string>
+     <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="Background">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>1271</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/wqe.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>270</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+    </property>
+    <property name="text">
+     <string>Інформація</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>270</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+    </property>
+    <property name="text">
+     <string>Фільтрація</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>270</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+    </property>
+    <property name="text">
+     <string>Імітація бою</string>
+    </property>
+   </widget>
+   <zorder>Background</zorder>
+   <zorder>Filtration</zorder>
+   <zorder>Information</zorder>
+   <zorder>Simulation</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
   </widget>
  </widget>
  <resources/>

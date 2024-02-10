@@ -16,94 +16,272 @@
   <widget class="QPushButton" name="Tanks">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>350</y>
-     <width>171</width>
-     <height>111</height>
+     <x>100</x>
+     <y>450</y>
+     <width>311</width>
+     <height>221</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/HD wallpaper gray military tank on road at daytime digital wallpaper, USSR.jpg);</string>
+   </property>
    <property name="text">
-    <string>Танки</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Mlrs">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>80</y>
-     <width>171</width>
-     <height>111</height>
+     <x>540</x>
+     <y>110</y>
+     <width>250</width>
+     <height>250</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/ATACMS missle being fired from the MLRS_.jpg);</string>
+   </property>
    <property name="text">
-    <string>РСЗО</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Vech">
    <property name="geometry">
     <rect>
-     <x>680</x>
-     <y>80</y>
-     <width>171</width>
-     <height>111</height>
+     <x>870</x>
+     <y>110</y>
+     <width>301</width>
+     <height>241</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/Militaria,the BMP IFV with 57mm gun #Russian #weapon #army #ifv.jpg);</string>
+   </property>
    <property name="text">
-    <string>Бронемашини</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Shoot">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>350</y>
-     <width>171</width>
-     <height>111</height>
+     <x>530</x>
+     <y>450</y>
+     <width>250</width>
+     <height>250</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/765xzeNb.jpg);</string>
+   </property>
    <property name="text">
-    <string>Стрілкова зброя</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Avia">
    <property name="geometry">
     <rect>
-     <x>690</x>
-     <y>350</y>
-     <width>171</width>
-     <height>111</height>
+     <x>890</x>
+     <y>450</y>
+     <width>250</width>
+     <height>250</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/resToPage/Military Aircraft Photo.jpg);
+    border: none;
+    outline: none;</string>
+   </property>
    <property name="text">
-    <string>Авіація</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Arta">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>80</y>
-     <width>171</width>
-     <height>111</height>
+     <x>200</x>
+     <y>110</y>
+     <width>250</width>
+     <height>250</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/resToPage/Wallpaper artillery, US Army, Military #4299.jpg);
+    border: none;
+    outline: none;</string>
+   </property>
    <property name="text">
-    <string>Артилерія</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="HomeB">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>40</y>
-     <width>80</width>
-     <height>24</height>
+     <x>60</x>
+     <y>90</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/resToPage/camping-tent_5543268.png);
+background-color: rgb(204, 191, 174);
+</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="Background">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-80</y>
+     <width>1271</width>
+     <height>981</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/there.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #аааа;</string>
+   </property>
+   <property name="text">
+    <string>Артилерія</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>140</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #000;</string>
+   </property>
+   <property name="text">
+    <string>РСЗО</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>150</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #000;</string>
+   </property>
+   <property name="text">
+    <string>БМП</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>610</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: rgb(215, 213, 212);</string>
+   </property>
+   <property name="text">
+    <string>Танки</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>460</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: rgb(215, 213, 212);</string>
+   </property>
+   <property name="text">
+    <string>Стрілецька зброя</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>470</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #000;</string>
+   </property>
+   <property name="text">
+    <string>Авіація</string>
+   </property>
+  </widget>
+  <zorder>Background</zorder>
+  <zorder>Tanks</zorder>
+  <zorder>Mlrs</zorder>
+  <zorder>Vech</zorder>
+  <zorder>Shoot</zorder>
+  <zorder>Avia</zorder>
+  <zorder>Arta</zorder>
+  <zorder>HomeB</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -35,6 +35,10 @@
         <pointsize>18</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -46,6 +50,10 @@
        <font>
         <pointsize>18</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -59,6 +67,10 @@
         <pointsize>18</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -70,6 +82,10 @@
        <font>
         <pointsize>18</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -100,6 +116,10 @@
         <pointsize>18</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -111,6 +131,10 @@
        <font>
         <pointsize>18</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -124,6 +148,10 @@
         <pointsize>18</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -135,6 +163,10 @@
        <font>
         <pointsize>18</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -160,6 +192,10 @@
         <pointsize>20</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -171,6 +207,10 @@
        <font>
         <pointsize>20</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -196,6 +236,10 @@
         <pointsize>20</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -208,6 +252,10 @@
         <pointsize>20</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+      </property>
       <property name="text">
        <string>TextLabel</string>
       </property>
@@ -215,6 +263,32 @@
     </item>
    </layout>
   </widget>
+  <widget class="QLabel" name="Background">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-130</x>
+     <y>-90</y>
+     <width>1271</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/pexels-phil-kallahar-983200.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>Background</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget_2</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget_3</zorder>
  </widget>
  <resources/>
  <connections/>

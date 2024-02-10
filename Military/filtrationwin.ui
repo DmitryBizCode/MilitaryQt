@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="FiltrationOn_">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>520</y>
+      <x>440</x>
+      <y>590</y>
       <width>201</width>
       <height>61</height>
      </rect>
@@ -36,7 +36,7 @@
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>130</y>
+      <y>150</y>
       <width>751</width>
       <height>351</height>
      </rect>
@@ -51,7 +51,7 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>170</y>
+      <y>190</y>
       <width>271</width>
       <height>101</height>
      </rect>
@@ -63,6 +63,10 @@
         <font>
          <pointsize>18</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
        </property>
        <property name="text">
         <string>Дистанція</string>
@@ -85,6 +89,10 @@
          <pointsize>18</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+       </property>
        <property name="text">
         <string>Калібр</string>
        </property>
@@ -104,16 +112,48 @@
    <widget class="QPushButton" name="Return_to_home">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>20</y>
-      <width>201</width>
-      <height>81</height>
+      <x>60</x>
+      <y>60</y>
+      <width>71</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resimg/IMage/resToPage/camping-tent_5543268.png);
+background-color: rgb(153, 129, 101);
+</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="Background">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-60</y>
+      <width>1271</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/simulation_back.jpg);
+image: url(:/resimg/IMage/resToPage/there.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>Background</zorder>
+   <zorder>FiltrationOn_</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>formLayoutWidget</zorder>
+   <zorder>Return_to_home</zorder>
   </widget>
  </widget>
  <resources/>

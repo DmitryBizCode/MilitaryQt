@@ -45,14 +45,18 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>40</y>
-     <width>111</width>
-     <height>41</height>
+     <x>60</x>
+     <y>60</y>
+     <width>51</width>
+     <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/resToPage/helmet_6186688.png);
+background-color: rgb(9, 18, 17);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="Background">
