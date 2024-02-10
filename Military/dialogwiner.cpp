@@ -8,6 +8,7 @@ DialogWiner::DialogWiner(QWidget *parent, int Ta, int Sa, int Va, int Da, int Tb
     // Constructor implementation here
     ui->setupUi(this);
     setupdatenew();
+    Func_posible();
 }
 
 DialogWiner::~DialogWiner()
@@ -41,4 +42,15 @@ void DialogWiner::setupdatenew()
     ui->Vb->setText("Бронемашини    "+QString::number(Vb) + "      ("+ QString::number((-1) * (Vb - get<7>(res)))+ ")");
     ui->Da->setText("Дрони    "+QString::number(Da) + "        ("+ QString::number((-1) * (Da - get<4>(res)))+ ")");
     ui->Db->setText("Дрони    "+QString::number(Db) + "        ("+ QString::number((-1) * (Db - get<5>(res)))+ ")");
+}
+void DialogWiner::Func_posible(){
+    double a = Func_posible_helper(Ta, Sa, Da, Va);
+    double b = Func_posible_helper(Tb, Sb, Db, Vb);
+    double C = (a * 100)/(a + b);
+    int progressValue = static_cast<int>(C);
+    std::cout<<progressValue;
+    ui->progressBar->setValue(progressValue);
+}
+double DialogWiner::Func_posible_helper(int t, int s, int d, int v){
+    return (s)-(1.05*abs(t-(s/4)))-(1.1*abs(v-(s/1.3)))+(d/5);
 }

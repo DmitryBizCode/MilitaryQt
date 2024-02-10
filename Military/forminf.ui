@@ -132,7 +132,7 @@ image: url(:/resimg/IMage/resToPage/765xzeNb.jpg);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">image: url(:/resimg/IMage/resToPage/camping-tent_5543268.png);
-background-color: rgb(204, 191, 174);
+background-color: rgb(184, 189, 193);
 </string>
    </property>
    <property name="text">
@@ -145,16 +145,16 @@ background-color: rgb(204, 191, 174);
    </property>
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>-80</y>
-     <width>1271</width>
+     <x>-30</x>
+     <y>-90</y>
+     <width>1541</width>
      <height>981</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">    border: none;
     outline: none;
-image: url(:/resimg/IMage/resToPage/there.jpg);</string>
+image: url(:/resimg/IMage/resToPage/assdfggdfg.png);</string>
    </property>
    <property name="text">
     <string/>

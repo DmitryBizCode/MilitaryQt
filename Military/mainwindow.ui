@@ -89,16 +89,16 @@ image: url(:/resimg/IMage/resToPage/photo_2024-02-10_23-40-11.jpg);</string>
     </property>
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>-20</y>
-      <width>1271</width>
-      <height>851</height>
+      <x>-70</x>
+      <y>-70</y>
+      <width>1511</width>
+      <height>931</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">    border: none;
     outline: none;
-image: url(:/resimg/IMage/resToPage/wqe.jpg);</string>
+image: url(:/resimg/IMage/resToPage/38756943.jpg);</string>
     </property>
     <property name="text">
      <string/>

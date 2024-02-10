@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">image: url(:/resimg/IMage/resToPage/camping-tent_5543268.png);
-background-color: rgb(204, 191, 174);
+background-color:rgb(161, 188, 216);
 </string>
    </property>
    <property name="text">
@@ -46,7 +46,7 @@ background-color: rgb(204, 191, 174);
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #fff;</string>
+    <string notr="true">color: rgb(255, 255, 255);</string>
    </property>
    <property name="title">
     <string>Команда А</string>
@@ -320,11 +320,11 @@ color: #fff;</string>
    <property name="styleSheet">
     <string notr="true">font: 700 18pt &quot;Segoe Script&quot;;
 background-color: rgba(0, 0, 0, 0);
-color: #fff;</string>
+color: #000;</string>
    </property>
    <item>
     <property name="text">
-     <string>Рівнина</string>
+     <string>Поле</string>
     </property>
    </item>
    <item>
@@ -358,7 +358,7 @@ color: #fff;</string>
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>-20</y>
+     <y>-30</y>
      <width>1271</width>
      <height>851</height>
     </rect>
@@ -366,7 +366,7 @@ color: #fff;</string>
    <property name="styleSheet">
     <string notr="true">    border: none;
     outline: none;
-image: url(:/resimg/IMage/resToPage/simulation_back.jpg);</string>
+image: url(:/resimg/IMage/resToPage/aaaaaaaaa21.jpg);</string>
    </property>
    <property name="text">
     <string/>

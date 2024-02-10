@@ -22,6 +22,8 @@ private:
     int Ta, Sa, Va, Da, Tb, Sb, Vb, Db,time;
     bool resault;
     std::string weather;
+    void Func_posible();
+    double Func_posible_helper(int t, int s, int d, int v);
 };
 
 #endif // DIALOGWINER_H
