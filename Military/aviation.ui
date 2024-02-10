@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1267</width>
-    <height>792</height>
+    <height>790</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,6 +26,220 @@
     <string>PushButton</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="f16">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>190</y>
+     <width>221</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+image: url(:/resimg/IMage/imgavia/f16.jpg);
+    outline: none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Mig29">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>190</y>
+     <width>221</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgavia/Mig29.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Su25">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>510</y>
+     <width>221</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgavia/su25.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Su27">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>510</y>
+     <width>221</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgavia/su27.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Su30">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>510</y>
+     <width>221</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/imgavia/su30.jpg);
+    border: none;
+    outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Background">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1271</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/background.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>330</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #616060;</string>
+   </property>
+   <property name="text">
+    <string>F-16</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>330</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Міг-29</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>650</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Су-25</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>650</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Су-27</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>650</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Су-30</string>
+   </property>
+  </widget>
+  <zorder>Background</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>f16</zorder>
+  <zorder>Mig29</zorder>
+  <zorder>Su25</zorder>
+  <zorder>Su27</zorder>
+  <zorder>Su30</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
  </widget>
  <resources/>
  <connections/>

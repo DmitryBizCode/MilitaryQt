@@ -36,9 +36,6 @@ set(PROJECT_SOURCES
         Fight.cpp
         Fight.h
 
-        TextInformation.cpp
-        TextInformation.h
-
         Serealization.cpp
         Serealization.h
         Filtration.cpp

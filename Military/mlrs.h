@@ -2,6 +2,7 @@
 #define MLRS_H
 
 #include <QWidget>
+#include "forma.h"
 
 namespace Ui {
 class MLRS;

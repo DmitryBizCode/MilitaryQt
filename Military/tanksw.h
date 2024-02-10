@@ -2,6 +2,7 @@
 #define TANKSW_H
 
 #include <QWidget>
+#include "forma.h"
 
 namespace Ui {
 class Tanksw;

@@ -36,39 +36,45 @@ void Artelir::on_pushButton_7_clicked()
     this->close();
 }
 
-
-void Artelir::on_C3_clicked()
-{
-
-}
-
-
 void Artelir::on_C19_clicked()
 {
-
+    Forma *foo = new Forma(0, 0);
+    hide();
+    foo->show();
 }
 
-
-void Artelir::on_ttt_clicked()
+void Artelir::on_bogdana22_clicked()
 {
-
+    Forma *foo = new Forma(1, 1);
+    hide();
+    foo->show();
 }
 
-
-void Artelir::on_bogdana_clicked()
+void Artelir::on_C3Akatsia_clicked()
 {
-
+    Forma *foo = new Forma(2, 2);
+    hide();
+    foo->show();
 }
 
-
-void Artelir::on_m109_clicked()
+void Artelir::on_M109_clicked()
 {
-
+    Forma *foo = new Forma(3, 3);
+    hide();
+    foo->show();
 }
 
+void Artelir::on_M777_clicked()
+{
+    Forma *foo = new Forma(4, 4);
+    hide();
+    foo->show();
+}
 
 void Artelir::on_pzh2000_clicked()
 {
-
+    Forma *foo = new Forma(5, 5);
+    hide();
+    foo->show();
 }
 

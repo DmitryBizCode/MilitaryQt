@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1267</width>
-    <height>792</height>
+    <height>790</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,120 +29,368 @@
   <widget class="QPushButton" name="bmp1">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>200</y>
-     <width>80</width>
-     <height>24</height>
+     <x>57</x>
+     <y>190</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/BMP1.png);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="bmp2">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>220</y>
-     <width>80</width>
-     <height>24</height>
+     <x>368</x>
+     <y>190</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/BMP2.png);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Bradley">
    <property name="geometry">
     <rect>
-     <x>830</x>
-     <y>240</y>
-     <width>80</width>
-     <height>24</height>
+     <x>679</x>
+     <y>190</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/Bredley.jpg);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="BTR80">
    <property name="geometry">
     <rect>
-     <x>1020</x>
-     <y>240</y>
-     <width>80</width>
-     <height>24</height>
+     <x>990</x>
+     <y>190</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/BTR80.png);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Cv90">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>390</y>
-     <width>80</width>
-     <height>24</height>
+     <x>20</x>
+     <y>440</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/cv90.png);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="kozak">
    <property name="geometry">
     <rect>
-     <x>520</x>
-     <y>400</y>
-     <width>80</width>
-     <height>24</height>
+     <x>271</x>
+     <y>440</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/kozak.jpg);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="m113">
    <property name="geometry">
     <rect>
-     <x>690</x>
-     <y>400</y>
-     <width>80</width>
-     <height>24</height>
+     <x>522</x>
+     <y>440</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/m113.png);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Marder">
    <property name="geometry">
     <rect>
-     <x>840</x>
-     <y>410</y>
-     <width>80</width>
-     <height>24</height>
+     <x>773</x>
+     <y>440</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resimg/IMage/imgvech/Marder.jpg);
+    border: none;
+    outline: none;</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="Tigr">
    <property name="geometry">
     <rect>
-     <x>970</x>
-     <y>400</y>
-     <width>80</width>
-     <height>24</height>
+     <x>1024</x>
+     <y>440</y>
+     <width>221</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/imgvech/tiger.jpg);</string>
+   </property>
    <property name="text">
-    <string>PushButton</string>
+    <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="Background">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1271</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: none;
+    outline: none;
+image: url(:/resimg/IMage/resToPage/background.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>330</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>М2 Bradley</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>330</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #616060;</string>
+   </property>
+   <property name="text">
+    <string>БМП-2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>330</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #000;</string>
+   </property>
+   <property name="text">
+    <string>БМП-1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>330</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>БТР-80</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>580</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>CV90</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>580</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Бронемашина козак</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>580</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>M113 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>1062</x>
+     <y>580</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Бронемашина тигр</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>580</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe Script&quot;;
+background-color: rgba(0, 0, 0, 0);
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>BMP Marder</string>
+   </property>
+  </widget>
+  <zorder>Background</zorder>
+  <zorder>HomeB</zorder>
+  <zorder>bmp1</zorder>
+  <zorder>bmp2</zorder>
+  <zorder>Bradley</zorder>
+  <zorder>BTR80</zorder>
+  <zorder>Cv90</zorder>
+  <zorder>kozak</zorder>
+  <zorder>m113</zorder>
+  <zorder>Marder</zorder>
+  <zorder>Tigr</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
  </widget>
  <resources/>
  <connections/>

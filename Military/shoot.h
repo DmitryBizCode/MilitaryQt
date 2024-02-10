@@ -2,6 +2,7 @@
 #define SHOOT_H
 
 #include <QWidget>
+#include "forma.h"
 
 namespace Ui {
 class Shoot;

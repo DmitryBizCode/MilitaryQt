@@ -39,11 +39,15 @@ void Shoot::on_HomeB_clicked()
 
 void Shoot::on_ak_clicked()
 {
-
+    Forma *foo = new Forma(15, 15);
+    hide();
+    foo->show();
 }
 
 void Shoot::on_ar_clicked()
 {
-
+    Forma *foo = new Forma(16, 16);
+    hide();
+    foo->show();
 }
 

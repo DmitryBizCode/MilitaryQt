@@ -39,24 +39,32 @@ void MLRS::on_HomeB_clicked()
 
 void MLRS::on_Uragan_clicked()
 {
-
+    Forma *foo = new Forma(12, 12);
+    hide();
+    foo->show();
 }
 
 
 void MLRS::on_smerch_clicked()
 {
-
+    Forma *foo = new Forma(13, 13);
+    hide();
+    foo->show();
 }
 
 
 void MLRS::on_bm21Grad_clicked()
 {
-
+    Forma *foo = new Forma(11, 11);
+    hide();
+    foo->show();
 }
 
 
 void MLRS::on_Himars_clicked()
 {
-
+    Forma *foo = new Forma(14, 14);
+    hide();
+    foo->show();
 }
 

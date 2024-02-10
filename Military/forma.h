@@ -13,7 +13,7 @@ class Forma : public QWidget
     Q_OBJECT
 
 public:
-    explicit Forma(QWidget *parent = nullptr, int image_default = 0, int text_default = 0);
+    explicit Forma(int image_default, int text_default, QWidget *parent = nullptr);
     ~Forma();
 
 private slots:
